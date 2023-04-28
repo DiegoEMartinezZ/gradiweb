@@ -1,0 +1,27 @@
+div nav.banner-container {
+  background-color: #ffdcd3;
+  color: #444950;
+  padding-top: 9px;
+  padding-bottom: 7px;
+  width: auto;
+  height: 32px;
+}
+
+div nav h5.banner-container-txt {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+div nav.banner-container:hover {
+  cursor: pointer;
+  background-color: #444950;
+  color: #ffdcd3;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1030px) {
+  div nav h5.banner-container-txt {
+    font-size: 12px;
+  }
+}

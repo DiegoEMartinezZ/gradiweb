@@ -1,0 +1,43 @@
+div section.main-title-container {
+  color: #444950;
+  position: relative;
+  width: 566px;
+  height: 131px;
+  margin-left: 13.5rem;
+  margin-top: 3.94rem;
+}
+
+div div.blue-rectangle {
+  background-color: #caf0ff;
+  position: absolute;
+  top: 37px;
+  left: -24px;
+  width: 70px;
+  height: 24px;
+  border-radius: 100px;
+  z-index: -1;
+}
+
+div section h1.main-title-txt {
+  font-family: "Abhaya Libre";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 61.6px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1030px) {
+  div section.main-title-container {
+    margin-left: 32px;
+    width: 335px;
+    height: 80px;
+  }
+  div div.blue-rectangle {
+    top: 17px;
+    left: -4px;
+  }
+  div section h1.main-title-txt {
+    font-size: 28px;
+    line-height: 128%;
+  }
+}

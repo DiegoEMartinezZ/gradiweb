@@ -1,0 +1,22 @@
+button.general-button-wrap {
+  background-color: #efa693;
+  color: #fff;
+  border-radius: 100px;
+  border: 1px solid #efa693;
+  padding: 12px 40px;
+}
+
+button.general-button-wrap:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #efa693;
+}
+
+button h2.general-button-txt {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Neogrotesk Ess";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+}

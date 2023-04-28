@@ -1,0 +1,46 @@
+div div section.btns-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+div div section div.pink-rectangle {
+  background-color: #ffdcd3;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 24px;
+  border-radius: 100px;
+  margin: 8px;
+  text-align: center;
+}
+
+div div section div button.circle-btn {
+  background-color: #fff;
+  color: #444950;
+  width: 39.5px;
+  height: 39.5px;
+  border-radius: 100%;
+  text-align: center;
+  border: 0;
+  box-shadow: 0px 0px 42px 21px rgba(0, 0, 0, 0.08);
+  font-weight: bolder;
+}
+
+div div section div button.circle-btn:hover {
+  cursor: pointer;
+  background-color: #444950;
+  color: #fff;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1030px) {
+  div div section.btns-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-left: 24px;
+    margin-top: 23px;
+  }
+}

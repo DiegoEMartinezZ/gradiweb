@@ -1,0 +1,63 @@
+footer.footer-container {
+  background-color: rgba(209, 241, 255, 0.5);
+  color: #444950;
+  min-width: 5px;
+  height: 550px;
+}
+
+footer section.footer-txt-wrap {
+  position: relative;
+  top: 197px;
+}
+
+footer section h1.footer-txt {
+  text-align: center;
+  font-family: "Abhaya Libre";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 140%;
+}
+
+footer section.form-txt-wrap {
+  color: #939393;
+}
+
+footer section h1.form-txt {
+  text-align: center;
+  font-family: "Filson Pro";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 15px;
+  line-height: 180%;
+}
+
+footer h1 br.space-02 {
+  display: none;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1030px) {
+  footer.footer-container {
+    height: 600px;
+  }
+
+  footer section h1.footer-txt {
+    font-size: 28px;
+    line-height: 128%;
+    margin-bottom: 45px;
+  }
+
+  footer section h1.form-txt {
+    line-height: 180%;
+  }
+  footer section.form-txt-wrap {
+    padding: 10px;
+  }
+
+  footer h1 br.space-01 {
+    display: none;
+  }
+  footer h1 br.space-02 {
+    display: block;
+  }
+}
